@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Hoobank is an online banking platform for helping people for there banking system">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Kuljit Talukdar">
+    <title>HooBank online bank</title>
+
+    <!--favicon-->
+    <link rel="shortcut icon" href="./hoobank.svg" type="image/svg+xml">
+
+    <!--css link-->
+    <link rel="stylesheet" href="./CSS/style.css">
+
+    <!--font-family link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!--header-->
+    <header class="header" data-header>
+        <div class="container">
+
+            <a href="#" class="logo">
+                <img src="./images/logo.svg" width="32" height="32" alt="logo">
+                Hoo <span>Bank</span>
+            </a>
+
+            <nav class="navbar" data-navbar>
+
+                <div class="navbar-top">
+                    <a href="#" class="logo">
+                        <img src="./images/logo.svg" width="32" height="32" alt="logo">
+                        Hoo <span>Bank</span>
+                    </a>
+
+                    <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+                        <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+                    </button>
+                </div>
+
+                <ul class="navbar-list">
+
+                    <li>
+                        <a href="#home" class="navbar-link">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="#aboutus" class="navbar-link">About Us</a>
+                    </li>
+
+                    <li>
+                        <a href="#features" class="navbar-link">Features</a>
+                    </li>
+
+                    <li>
+                        <a href="#solution" class="navbar-link">Solution</a>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+            <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+                <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+            </button>
+
+            <div class="overlay" data-nav-toggler data-overlay></div>
+        </div>
+    </header>
+
+
+    <main>
+        <article>
+
+            <!--hero-->
+            <section class="hero" id="home" aria-label="Hero">
+                <div class="container">
+
+                    <div class="hero-data-section">
+
+                        <div class="hero-tag">
+                            <img src="./images/Combined-Shape-icon.svg" width="9" height="9" alt="Combined-Shape-icon">
+
+                            <div class="hero-tag-text">
+                                <strong>20%</strong> DISCOUNT FOR <strong>1 MONTH</strong> ACCOUNT
+                            </div>
+                        </div>
+
+                        <h1 class="h1 hero-title">
+                            The Next 
+                            <span class="hero-text-gradient">Generation</span>
+                            Payment Method.
+                        </h1>
+
+                        <p class="section-text">
+                            Our team of experts uses a methodology to identify 
+                            the credit cards most likely to fit your needs. 
+                            We examine annual percentage rates, annual fees.
+                        </p>
+
+                        <a href="#" class="btn-primary">Get Started</a>
+
+                    </div>
+
+
+                    <figure class="hero-banner">
+                        <img src="./images/hero-banner.svg" width="669" height="674" alt="robert-banner" class="w-100">
+
+                        <div class="hero-banner-light-gradient"></div>
+                    </figure>
+
+                    <div class="hero-bg-gradient"></div>
+
+                </div>
+            </section>
+
+            <!--achivement-->
+            <section class="achivement" id="aboutus" aria-label="Achivement">
+                <div class="container">
+
+                    <ul class="achivement-list">
+
+                        <li class="achivement-category">
+                            <h3 class="achivement-number">
+                                3800+
+                            </h3>
+                            <p class="achivement-title">User Active</p>
+                        </li>
+
+                        <li class="achivement-category">
+                            <h3 class="achivement-number">
+                                230+
+                            </h3>
+                            <p class="achivement-title">TRUSTED BY COMPANY</p>
+                        </li>
+
+                        <li class="achivement-category">
+                            <h3 class="achivement-number">
+                                $230M+
+                            </h3>
+                            <p class="achivement-title">TRANSACTION</p>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </section>
+
+
+            <!--bussiness-->
+            <section class="bussiness" id="features" aria-label="Bussiness">
+                <div class="container">
+
+                    <div class="bussiness-data-section">
+                        <h2 class="h2 section-title">
+                            You do the business, 
+                            we’ll handle the money.
+                        </h2>
+
+                        <p class="section-text">
+                            With the right credit card, you can improve your 
+                            financial life by building credit, earning rewards 
+                            and saving money. But with hundreds of credit cards 
+                            on the market.
+                        </p>
+
+                        <a href="#" class="btn-primary">Get Started</a>
+                    </div>
+
+                    <ul class="bussiness-feature-list">
+
+                        <li class="bussiness-feature-list-card">
+                            <div class="bussiness-feature-icon">
+                                <img src="./images/icon-Star.svg" width="38" height="38" loading="lazy" alt="Star-icon">
+                            </div>
+
+                            <div class="bussiness-feature-text-section">
+                                <h3 class="bussiness-feature-text-title">Rewards</h3>
+
+                                <p class="section-text">The best credit cards offer 
+                                some tantalizing combinations of promotions and prizes</p>
+                            </div>
+                        </li>
+
+                        <li class="bussiness-feature-list-card">
+                            <div class="bussiness-feature-icon">
+                                <img src="./images/icon-Secure.svg" width="38" height="38" loading="lazy" alt="Star-icon">
+                            </div>
+
+                            <div class="bussiness-feature-text-section">
+                                <h3 class="bussiness-feature-text-title">100% Secured</h3>
+
+                                <p class="section-text">We take proactive steps make 
+                                sure your information and transactions are secure.</p>
+                            </div>
+                        </li>
+
+                        <li class="bussiness-feature-list-card">
+                            <div class="bussiness-feature-icon">
+                                <img src="./images/icon-Send.svg" width="38" height="38" loading="lazy" alt="Star-icon">
+                            </div>
+
+                            <div class="bussiness-feature-text-section">
+                                <h3 class="bussiness-feature-text-title">Balance Transfer</h3>
+
+                                <p class="section-text">A balance transfer credit card can 
+                                save you a lot of money in interest charges.</p>
+                            </div>
+                        </li>
+
+
+                    </ul>
+
+                </div>
+            </section>
+
+
+            <!--billing-->
+            <section class="billing" id="features">
+                <div class="container">
+
+                    <figure class="billing-banner">
+                        <img src="./images/billing-banner.svg" width="530" height="455" alt="billing-banner" class="w-100">
+                    </figure>
+
+                    <div class="billing-data-section">
+
+                        <h2 class="h2 section-title">
+                            Easily control your 
+                            billing & invoicing.
+                        </h2>
+
+                        <p class="section-text">
+                            Elit enim sed massa etiam. Mauris eu adipiscing ultrices ametodio aenean neque. Fusce ipsum orci rhoncus aliporttitor integer platea placerat.
+                        </p>
+
+                        <div class="btn-group">
+                            <a href="#" class="app-store">
+                                <img src="./images/app-store.svg" width="108" height="27" alt="app-store">
+                            </a>
+
+                            <a href="#" class="play-store">
+                                <img src="./images/play-store.svg" width="108" height="27" alt="play-store">
+                            </a>
+                        </div>
+
+                    </div>
+
+                    <div class="bg-gradient"></div>
+                </div>
+            </section>
+
+
+            <!--card-->
+            <section class="card" id="solution">
+                <div class="container">
+
+                    <div class="card-data-section">
+
+                        <h2 class="h2 section-title">
+                            Find a better card deal 
+                            in few easy steps.
+                        </h2>
+
+                        <p class="section-text">
+                            Arcu tortor, purus in mattis at sed integer faucibus. Aliquet quis aliquet eget mauris tortor.ç Aliquet ultrices ac, ametau.
+                        </p>
+
+                        <a href="#" class="btn-primary">Get Started</a>
+
+                    </div>
+
+                    <figure class="card-banner">
+                        <img src="./images/card-banner.svg" width="513" height="449" alt="card-banner" class="w-100">
+                    </figure>
+
+                </div>
+            </section>
+
+
+            <!--testimonials-->
+            <section class="testimonials" aria-label="Testimonials">
+                <div class="container">
+
+                    <div class="testimonials-text-section">
+                        <h2 class="h2 section-title">
+                            What people are 
+                            saying about us
+                        </h2>
+
+                        <p class="section-text">
+                            Everything you need to accept card payments 
+                            and grow your business anywhere on the planet.
+                        </p>
+                    </div>
+
+                    <ul class="testimonials-list">
+
+                        <li class="testimonial-card">
+                            <img src="./images/coma.svg" width="42" height="27" alt="coma" class="coma">
+
+                            <blockquote class="blockquote-text">
+                                Money is only a tool. It will take you wherever you wish, 
+                                but it will not replace you as the driver.
+                            </blockquote>
+
+                            <div class="testimonial-bottom">
+                                <img src="./images/testimonial-1.svg" width="48" height="48" alt="Herman Jensen" class="testimonial-icon">
+
+                                <div class="user-details">
+                                    <h4 class="h4 user-name">Herman Jensen</h4>
+                                    <p class="tag">Founder & Leader</p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="testimonial-card">
+                            <img src="./images/coma.svg" width="42" height="27" alt="coma" class="coma">
+
+                            <blockquote class="blockquote-text">
+                                Money makes your life easier. If 
+                                you're lucky to have it, you're lucky.
+                            </blockquote>
+
+                            <div class="testimonial-bottom">
+                                <img src="./images/testimonial-2.svg" width="48" height="48" alt="Steve Mark" class="testimonial-icon">
+
+                                <div class="user-details">
+                                    <h4 class="h4 user-name">Steve Mark</h4>
+                                    <p class="tag">CEO</p>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="testimonial-card">
+                            <img src="./images/coma.svg" width="42" height="27" alt="coma" class="coma">
+
+                            <blockquote class="blockquote-text">
+                                It is usually people in the money business, 
+                                finance, and international trade that are really rich.
+                            </blockquote>
+
+                            <div class="testimonial-bottom">
+                                <img src="./images/testimonial-3.svg" width="48" height="48" alt="Kenn Gallagher" class="testimonial-icon">
+
+                                <div class="user-details">
+                                    <h4 class="h4 user-name">Kenn Gallagher</h4>
+                                    <p class="tag">Regular User</p>
+                                </div>
+                            </div>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </section>
+
+
+            <!--partners-->
+            <section class="partners" aria-label="Partners">
+                <div class="container">
+
+                    <ul class="partner-list">
+
+                        <li class="partner-link">
+                            <img src="./images/partner-1.svg" width="192" height="38" loading="lazy" alt="Partner-banner">
+                        </li>
+
+                        <li class="partner-link">
+                            <img src="./images/partner-2.svg" width="192" height="38" loading="lazy" alt="Partner-banner">
+                        </li>
+
+                        <li class="partner-link">
+                            <img src="./images/partner-3.svg" width="192" height="38" loading="lazy" alt="Partner-banner">
+                        </li>
+
+                        <li class="partner-link">
+                            <img src="./images/partner-4.svg" width="192" height="38" loading="lazy" alt="Partner-banner"">
+                        </li>
+
+                    </ul>
+
+                </div>
+            </section>
+
+
+            <!--subscription-->
+            <section class="subscription" aria-label="Subscription">
+                <div class="container">
+
+                    <div class="subscription-bg-gradient">
+
+                        <div class="subscription-text-section">
+                            <h2 class="h2 section-title">
+                                Let’s try our service now!
+                            </h2>
+
+                            <p class="section-text">
+                                Everything you need to accept card payments 
+                                and grow your business anywhere on the planet.
+                            </p>
+                        </div>
+
+                        <a href="#" class="btn-primary">Get Started</a>
+
+                    </div>
+
+                </div>
+            </section>
+
+        </article>
+    </main>
+
+
+    <!--footer-->
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="container">
+
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <img src="./images/footer-logo.svg" width="72" height="72" alt="Footer-logo">
+                        Hoo <span>Bank</span>
+                    </div>
+
+                    <p class="section-text">
+                        A new way to make the payments 
+                        easy, reliable and secure.
+                    </p>
+                </div>
+
+                <ul class="footer-list">
+
+                    <li>
+                        <p class="footer-list-title">Usefull Links</p>
+                    </li>
+
+                    <li class="footer-link">Content</li>
+                    <li class="footer-link">How it Works</li>
+                    <li class="footer-link">Create</li>
+                    <li class="footer-link">Explore</li>
+                    <li class="footer-link">Terms & Services</li>
+
+                </ul>
+
+                <ul class="footer-list">
+
+                    <li>
+                        <p class="footer-list-title">Community</p>
+                    </li>
+
+                    <li class="footer-link">Help Center</li>
+                    <li class="footer-link">Partners</li>
+                    <li class="footer-link">Suggestions</li>
+                    <li class="footer-link">Blog</li>
+                    <li class="footer-link">Newsletters</li>
+
+                </ul>
+
+                <ul class="footer-list">
+                    <li>
+                        <p class="footer-list-title">Partner</p>
+                    </li>
+
+                    <li class="footer-link">Our Partner</li>
+                    <li class="footer-link">Become a Partner</li>
+                </ul>
+
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+
+                <p class="copyright">
+                    Copyright &copy; 2021 HooBank. All Rights Reserved.
+                </p>
+
+                <ul class="social-list">
+                    <li class="social-link">
+                        <a href="#https://www.instagram.com"><ion-icon name="logo-instagram" aria-hidden="true"></ion-icon></a>
+                    </li>
+
+                    <li class="social-link">
+                        <a href="#https://www.facebook.com"><ion-icon name="logo-facebook" aria-hidden="true"></ion-icon></a>
+                    </li>
+
+                    <li class="social-link">
+                        <a href="#https://www.twitter.com"><ion-icon name="logo-twitter" aria-hidden="true"></ion-icon></a>
+                    </li>
+
+                    <li class="social-link">
+                        <a href="#https://www.linkedin.com"><ion-icon name="logo-linkedin" aria-hidden="true"></ion-icon></a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </footer>
+
+
+    <!--back-to-top-->
+    <a href="#" class="back-to-top-btn" aria-label="Back to top" data-back-to-top>
+        <ion-icon name="arrow-up" aria-hidden="true"></ion-icon>
+    </a>
+
+
+
+
+    <!--JS link-->
+    <script src="./JS/script.js"></script>
+
+    <!--ion-icon link-->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
